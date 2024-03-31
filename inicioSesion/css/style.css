@@ -1,0 +1,181 @@
+header{
+    background-color: rgb(251, 255, 0);
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+:root{
+    --colorTextos: #00000067;
+  }
+  ::before,
+  ::after{
+    box-sizing: border-box;
+  }
+body{
+    background-image: url(../batiz-transformed.jpeg);
+    background-size: cover;
+    font-family: monserrat;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+body:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    background: #000;
+    opacity: 0.3;
+    z-index: 0;
+  }
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 17, 0);
+    padding-top: 20px;
+}
+.letra1{
+    font-size: 50px; 
+      font-style:italic;
+      color: rgb(255, 255, 255);
+      align-self: center;
+      margin-left: 30px;
+      margin-right: 280px;
+     
+  }
+   .contacto2 i{
+    font-size: 40px;
+    margin-left: 15px;
+    align-self: center;
+    margin-right: 30px;
+  }
+
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 460px;
+    box-shadow: 0 0 6px 0 rgba(225, 225, 225, 0.8);
+    background-color: rgb(255, 255, 255);
+}
+ form h1{
+    margin-left: 10px;
+    margin-right: 15px;
+   text-align: center;
+   padding: 0 0 20px 0;
+   border-bottom: 1px solid silver;
+   font-size: 30px;
+}
+
+form .grupo{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 45px;
+   
+}
+ input{
+   background: none;
+   color: #adadad;
+   font-size: 18px;
+   padding: 10px 10px 10px 5px;
+   display: block;
+   width: 100%;
+   border: none;
+   border-bottom: 1px solid var(--colorTextos);
+}
+input:focus{
+    outline: none;
+    color: #5e5d5d;
+}
+ label{
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease-in-out all;
+    pointer-events:none ;
+}
+input:focus~label,
+input:valid~label{
+    top: -14px;
+    font-size: 12px;
+    color: #2196f3;
+}
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.barra::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background-color: rgb(29, 119, 221);
+    transform: 0.3s ease width;
+    left: 0;
+}
+input:focus~.barra::before{
+    width: 100%;
+
+}
+
+
+a{
+    margin: -5px 0 20px 5px;
+    color: aqua;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.buttons2 button{
+    font-family: 'roboto';
+    background-color: #000000;
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    padding: 18px;
+    font-size: 21px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.buttons{
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+}
+.buttons button{
+    
+    background-color: rgb(122, 24, 73);
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+    justify-items: center;
+}
+h9{
+    margin-left: 39px;
+}
+

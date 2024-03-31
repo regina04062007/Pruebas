@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+    
+  background-image: url(../img/batiz-transformed.jpeg);
+  
+  background-size: cover;
+  font-family: monserrat;
+  color: rgb(0, 0, 0);
+  height: 100vh;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+    
+header{
+    background-color: rgba(27, 27, 26, 0.788);
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.contacto2 i{
+    font-size: 40px;
+    margin-left: 15px;
+    align-self: center;
+    margin-right: 30px;
+  }
+.letra1{
+    font-size: 50px; 
+      font-style:italic;
+      color: rgb(255, 255, 255);
+      align-self: center;
+      margin-left: 30pxpx;
+     
+  }
+.ima2 {
+    margin-left: 50px;
+    align-self: left;
+    width: 150px;
+    height: 90px;
+    border-color: #00000000;
+    align-self: right;
+   
+  }  
+footer{
+  background-color: rgba(27, 27, 26, 0.788);
+    position: sticky;
+    clear: both;
+    height: 100px;
+}
+
+.ima1{
+    margin: 50px;
+    width: 90%;
+  }
+   img{
+      width: 230px;
+    height: 230px; 
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+   
+  }
+  .text-box{
+    color: #ffffff;
+  }
+  
+  .text-box h2{
+    font-size: 42px;
+   
+  }
+  .text-box .parra1{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #711c4600;
+    
+    
+  }
+.text-box2{
+  color: #ffffff;
+  
+}
+.text-box h2{
+  font-size: 42px;
+}
+.ima3{
+  margin: 30px;
+  width: 90%;
+}
+.imag1{
+    
+  width: 400px;
+height: 250px; 
+float: right;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 0%;
+
+
+}
+.text-box2 .parra2{
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  background-color: #711c4600;
+  
+}
+a{
+    color: rgb(255, 255, 255);
+    
+}

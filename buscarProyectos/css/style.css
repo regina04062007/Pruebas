@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+  }
+  @media screen and (max-width: 500px){
+    .container{
+        width: 80%;
+    }
+  }
+  
+  body{
+      
+    background: linear-gradient(rgba(64, 64, 66, 0.295),rgba(48, 49, 51, 0.26)), url(../img/batiz-transformed.jpeg);
+    background-size: cover;
+    font-family: monserrat;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    height: 800px;
+  }
+      
+  header{
+      background-color: rgba(27, 27, 26, 0.788);
+      display: flex;
+      width: 100%;
+      height: 100px;
+      align-items: center;
+      align-content: center;
+      align-items: center;
+      
+  }
+  .contacto2 i{
+      font-size: 40px;
+      margin-left: 15px;
+      align-self: center;
+      margin-right: 30px;
+    }
+  .letra1{
+      font-size: 50px; 
+        font-style:italic;
+        color: rgb(255, 255, 255);
+        align-self: center;
+        margin-left: 30pxpx;
+       
+    }
+    .t123{
+        color: rgb(255, 255, 255);
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    .ima2 {
+        margin-left: 50px;
+        margin-right: 150px;
+        align-self: left;
+        width: 150px;
+        height: 90px;
+        border-color: #00000000;
+        align-self: right;
+       
+      }  
+    aside{
+      height: 700px;
+    }
+  footer{
+    background-color: rgba(27, 27, 26, 0.788);
+     
+      clear: both;
+      height: 100px;
+  }
+  
+  .ima1{
+    margin-left: 50px;
+    margin-right: 50px;
+    align-self: left;
+    width: 95px;
+    height: 95px;
+    border-color: #00000000;
+    align-self: left;
+    }
+    
+  a{
+      color: rgb(255, 255, 255);
+      
+  }

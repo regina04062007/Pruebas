@@ -11,7 +11,7 @@
 
 body{
     
-  background: linear-gradient(rgba(64, 64, 66, 0.39),rgba(48, 49, 51, 0.342)), url(../img/batiz-transformed.jpeg);
+  background: linear-gradient(rgba(64, 64, 66, 0.295),rgba(48, 49, 51, 0.26)), url(../img/batiz-transformed.jpeg);
   background-size: cover;
   font-family: monserrat;
   color: rgb(0, 0, 0);
@@ -43,8 +43,14 @@ header{
       margin-left: 30pxpx;
      
   }
+  .t123{
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 .ima2 {
     margin-left: 50px;
+    margin-right: 150px;
     align-self: left;
     width: 150px;
     height: 90px;

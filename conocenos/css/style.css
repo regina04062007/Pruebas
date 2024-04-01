@@ -1,8 +1,93 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(27, 27, 26, 0.788);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Primera parte del navegador*/
+h1{
+  color: white;
+  font-size: 45px;
+}
+
+.imgH{
+  width: 110px;
+  height: 110px;
+  margin: 10px;
+}
+.ima2 {
+  margin-left: 10px;
+  margin-right: 100px;
+  align-self: left;
+  width: 150px;
+  height: 90px;
+  border-color: #00000000;
+  align-self: right;
+ 
+} 
+
+div.inicial{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Del navegador*/
+.navegacion a{
+  position: relative;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navegacion a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+
+.navegacion a:hover::after {
+  transform: scaleX(1);
+}
+
+.navegacion .btnI{
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
   
-  }
+  transition: .5s;
+}
+
+.navegacion .btnI:hover {
+  background: #fff;
+  color: black;
+}
   @media screen and (max-width: 500px){
     .container{
         width: 80%;
@@ -19,16 +104,6 @@
     height: 800px;
   }
       
-  header{
-      background-color: rgba(27, 27, 26, 0.788);
-      display: flex;
-      width: 100%;
-      height: 100px;
-      align-items: center;
-      align-content: center;
-      align-items: center;
-      
-  }
   
   .letra1{
       font-size: 50px; 
@@ -38,21 +113,7 @@
         margin-left: 30pxpx;
        
     }
-    .t123{
-        color: rgb(255, 255, 255);
-        margin-left: 5px;
-        margin-right: 5px;
-      }
-  .ima2 {
-      margin-left: 50px;
-      margin-right: 150px;
-      align-self: left;
-      width: 150px;
-      height: 90px;
-      border-color: #00000000;
-      align-self: right;
-     
-    }  
+    
     aside{
       height: 700px;
     }
@@ -63,17 +124,4 @@
       height: 100px;
   }
   
-  .ima1{
-    margin-left: 50px;
-    margin-right: 50px;
-    align-self: left;
-    width: 95px;
-    height: 95px;
-    border-color: #00000000;
-    align-self: left;
-    }
-    
-  a{
-      color: rgb(255, 255, 255);
-      
-  }
+  

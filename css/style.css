@@ -3,19 +3,20 @@
   padding: 0;
 
 }
+@media screen and (max-width: 500px){
+  .container{
+      width: 80%;
+  }
+}
+
 body{
     
-  background-image: url(../img/batiz-transformed.jpeg);
-  
+  background: linear-gradient(rgba(64, 64, 66, 0.39),rgba(48, 49, 51, 0.342)), url(../img/batiz-transformed.jpeg);
   background-size: cover;
   font-family: monserrat;
   color: rgb(0, 0, 0);
   height: 100vh;
   height: 800px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
 }
     
 header{
@@ -51,9 +52,12 @@ header{
     align-self: right;
    
   }  
+  aside{
+    height: 700px;
+  }
 footer{
   background-color: rgba(27, 27, 26, 0.788);
-    position: sticky;
+   
     clear: both;
     height: 100px;
 }
@@ -70,51 +74,7 @@ footer{
     margin-left: 100px;
    
   }
-  .text-box{
-    color: #ffffff;
-  }
   
-  .text-box h2{
-    font-size: 42px;
-   
-  }
-  .text-box .parra1{
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    background-color: #711c4600;
-    
-    
-  }
-.text-box2{
-  color: #ffffff;
-  
-}
-.text-box h2{
-  font-size: 42px;
-}
-.ima3{
-  margin: 30px;
-  width: 90%;
-}
-.imag1{
-    
-  width: 400px;
-height: 250px; 
-float: right;
-border-radius: 10px;
-margin-left: 30px;
-margin-right: 0%;
-
-
-}
-.text-box2 .parra2{
-  text-align: justify;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  background-color: #711c4600;
-  
-}
 a{
     color: rgb(255, 255, 255);
     

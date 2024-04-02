@@ -70,81 +70,89 @@ div.inicial{
   font-size: 1.1em;
   color: #fff;
   font-weight: 500;
-  
   transition: .5s;
+  font-size: 18px;
 }
 
 .navegacion .btnI:hover {
   background: #fff;
   color: black;
 }
-@media screen and (max-width: 500px){
-  .container{
-      width: 80%;
-  }
+
+
+section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: rebeccapurple;
 }
 
-body{
-    
+.conocenos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(rgba(64, 64, 66, 0.295),rgba(48, 49, 51, 0.26)), url(../img/batiz-transformed.jpeg);
   background-size: cover;
-  font-family: monserrat;
-  color: rgb(0, 0, 0);
+  background-position: center;
+  width: 100%;
   height: 100vh;
-  height: 800px;
 }
-    
 
-.contacto2 i{
-    font-size: 40px;
-    margin-left: 15px;
-    align-self: center;
-    margin-right: 30px;
-  }
-.letra1{
-    font-size: 50px; 
-      font-style:italic;
-      color: rgb(255, 255, 255);
-      align-self: center;
-      margin-left: 30pxpx;
-     
-  }
-  .t123{
-    color: rgb(255, 255, 255);
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-.ima2 {
-    margin-left: 10px;
-    margin-right: 100px;
-    align-self: left;
-    width: 150px;
-    height: 90px;
-    border-color: #00000000;
-    align-self: right;
-   
-  }  
-  aside{
-    height: 700px;
-  }
+.bProyectos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #898484;
+  width: 100%;
+  height: 100vh;
+}
+
+
 footer{
-  background-color: rgba(27, 27, 26, 0.788);
-   
-    clear: both;
-    height: 100px;
+  background: #111;
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: white;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-.ima1{
-    margin: 50px;
-    width: 90%;
-  }
-   img{
-    
-      width: 250px;
-    height: 250px; 
-    float: left;
-    margin-right: 100px;
-    margin-left: 100px;
-   
-  }
-  
+.imgF{
+  width: 50px;
+  height: 50px;
+}
+
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.rSociales{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+.rSociales li{
+  margin: 0 10px;
+}
+.rSociales a{
+  text-decoration: none;
+}

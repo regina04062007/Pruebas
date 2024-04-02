@@ -141,4 +141,7 @@ div.inicial{
     align-self: left;
     }
     
-  
+  .barrabus{
+    width: 60%;
+    border-radius: 6px;
+  }

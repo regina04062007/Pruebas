@@ -1,3 +1,8 @@
+  // Mostrar mensaje al cargar la página
+  window.onload = function() {
+    alert('ATENCION: Ten en cuenta que solo los alumnos que ingresarán información de sus proyectos necesitan crear una cuenta (representantes de cada equipo). Si solo deseas visualizar la información no la necesitas');
+}
+
 function validarFormulario() {
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
@@ -19,5 +24,8 @@ function validarFormulario() {
     }
 
     return true; 
+
 }
+
+  
 

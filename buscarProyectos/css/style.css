@@ -140,8 +140,12 @@ div.inicial{
     border-color: #00000000;
     align-self: left;
     }
-    
-  .barrabus{
-    width: 60%;
+
+  input{
+    width: 40%;
+    height: 30px;
     border-radius: 6px;
+    margin-top: 15%;
+    margin-left: 55%;
+    font-size: medium;
   }

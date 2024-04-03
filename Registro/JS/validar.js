@@ -1,6 +1,6 @@
   // Mostrar mensaje al cargar la página
   window.onload = function() {
-    alert('ATENCION: Ten en cuenta que solo los alumnos que ingresarán información de sus proyectos necesitan crear una cuenta (representantes de cada equipo). Si solo deseas visualizar la información no la necesitas');
+    alert('ATENCIÓN: Ten en cuenta que solo los alumnos que ingresarán información de sus proyectos necesitan crear una cuenta (representantes de cada equipo). Si solo deseas visualizar la información, no la necesitas.');
 }
 
 function validarFormulario() {
@@ -9,7 +9,7 @@ function validarFormulario() {
     var username = document.getElementById('name').value;
 
     if (!email.endsWith('@alumno.ipn.mx')) {
-        alert('El correo electronico debe terminar en @alumno.ipn.mx');
+        alert('El correo electrónico debe terminar en @alumno.ipn.mx');
         return false;
     }
 

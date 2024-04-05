@@ -126,13 +126,10 @@
       margin-left: 300px;
       box-shadow: 0 0 6px 0 rgba(225, 225, 225, 0.8);
       text-align: justify;
-     /* transform: all 0.25s;*/
+      transform: all 0.25s;
       
     }
-    /* .text-box:hover{
-      transform: translateY(-15px);
-      box-shadow: 0 0 6px 0 rgba(225, 225, 225, 0.8);
-   }*/
+   
     
     .text-box h2{
       font-size: 28px;
@@ -174,7 +171,7 @@
   .ii{
     width:215px;
      height:180px;
-    margin-top: 70px;
+    margin-top: 170px;
     border-radius: 6px;
     margin-right: 20px;
     -webkit-transition: all 0.5s ease;
@@ -190,7 +187,6 @@
    
   }
   .hd{
-    
     margin-left: 200px;
     height: 35px;
     width: 400px;
@@ -198,7 +194,6 @@
       padding-left: 15px;
       align-items: center;
       border-radius: 6px;
-      opacity: 0.7;
       cursor: pointer;
   }
   

@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Monserrat alternates', sans-serif;
 }
 .container {
   display: grid;
@@ -28,11 +27,11 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: Lobster;
 }
 h1{
   color: white;
-  font-size: 40px;
-  font-family: sans-serif;
+  font-size: 45px;
 }
 
 .imgH{
@@ -56,7 +55,7 @@ div.inicial{
   } 
   h2{
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 35px;
 
   }
   .navegacion a{
@@ -155,10 +154,10 @@ div.inicial{
  
   .imgJ{
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 60px;
     margin-bottom: 40px;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 190px;
   }
   
 section {
@@ -183,6 +182,7 @@ form {
 h3 {
   color: #ffffff;
   text-align: center;
+  font-size: 25px;
 }
 
 label {

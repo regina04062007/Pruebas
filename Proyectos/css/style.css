@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Monserrat alternates', sans-serif;
 }
 .container {
   display: grid;
@@ -23,14 +22,15 @@ header {
   width: 100%;
   background-color: rgba(27, 27, 26, 0.788);
   grid-row: 1;
-    grid-column: 1 / -1;
+   grid-column: 1 / -1;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: Lobster;
 }
 h1{
   color: white;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .imgH{
@@ -149,14 +149,6 @@ div.inicial{
   color: #000000;
 }
 
- 
-  .imgJ{
-    margin-top: 50px;
-    margin-left: 70px;
-    margin-bottom: 30px;
-    width: 200px;
-    height: 200px;
-  }
   
 section {
   display: flex;

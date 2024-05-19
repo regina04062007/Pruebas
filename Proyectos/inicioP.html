@@ -19,9 +19,9 @@
                 <h2>Proyectos</h2>
             </div>
             <section class="navegacion">
-                <a href="../index.html#bProyectosI"><button class="btnI">Buscar proyectos</button></a>
+                <a href="../index.html#bProyectosI" class="a2">Buscar proyectos</a>
                 <br>
-                <a href="../index.html"><button class="btnI">Cerrar Sesión</button></a>
+                <a href="../index.html" class="a1"><button class="btnI">Cerrar Sesión</button></a>
                      <br>
             
          </section>
@@ -45,13 +45,44 @@
             
             <aside>
                 <h3>Ingresar nuevo proyecto</h3>
+                <br>
                 <form action="#" method="post">
+
+                    <label for="numProyecto">Número de Proyecto</label><br>
+                    <input type="number" name="number" id="number" required><span class="barra"></span><br>
+                    <br>
 
                     <label for="titulo">Titulo del proyecto:</label><br>
                     <input type="text" id="titulo" name="titulo"><br>
 
                     <label for="imagen">URL de la imágen:</label><br>
                     <input type="text" id="imagen" name="imagen"><br>
+
+                    <label for="lang">ODS (Objetivos de Desarrollo Sostenible):</label>
+                    <br>
+                    <select name="ods" id="lang">
+                      <option value="pobreza" id="ods1">Fin de la Pobreza</option>
+                      <option value="hambre" id="ods2">Hambre Cero</option>
+                      <option value="salud" id="ods3">Salud y Bienestar</option>
+                      <option value="educacion" id="ods4">Educación y Calidad</option>
+                      <option value="genero" id="ods5">Igualdad de Género</option>
+                      <option value="agua" id="ods6">Agua Limpia y Saneamiento</option>
+                      <option value="energia" id="ods7">
+                        Energía asequible y no contaminante</option>
+                      <option value="trabajo" id="ods8">Trabajo decente y crecimiento económico</option>
+                      <option value="industria" id="ods9">Industria, innovación e infraestructura</option>
+                      <option value="desigualdades" id="ods10">Reducción de las desigualdades</option>
+                      <option value="ciudades" id="ods11">Ciudades y comunidades sostenibles</option>
+                      <option value="conusmo" id="ods12">Producción y conusmo responsables</option>
+                      <option value="clima" id="ods13">Acción por el clima</option>
+                      <option value="submarina" id="ods14">Vida submarina</option>
+                      <option value="ecosistemas" id="ods15">
+                         Vida de ecosistemas terrestres</option>
+                      <option value="paz" id="ods16">Paz, justicia e instituciones sólidas</option>
+                      <option value="alianzas" id="ods17">Alianzas para lograr los objetivos</option>
+                    </select>
+                    <br>
+                    <br>
 
 
                     <label for="objetivo">Objetivo del proyecto:</label><br>
@@ -76,7 +107,7 @@
                     <textarea id="integrantes" name="integrantes" rows="4"></textarea><br>
 
                     <label for="grupo">Grupo del equipo:</label><br>
-                    <input type="text" id="grupo" name="grupo"><br>
+                    <input type="text" id="grupo" name="grupo"><br><br>
 
                     <input type="submit" value="Guardar">
                 </form>

@@ -1,18 +1,16 @@
 function validarFormulario() {
-    var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
-    
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
 
-    if (!email.endsWith('@alumno.ipn.mx')) {
+    if (!email.endsWith('ipn.mx')) {
         alert('El correo electronico debe terminar en @alumno.ipn.mx');
         return false;
+    }else{
+        if (password.length !== 8) {
+            alert('La contraseña debe tener exactamente 8 caracteres');
+            return false;
+        }else{
+            return true;
+        }
     }
-
-    if (password.length !== 8) {
-        alert('La contraseña debe tener exactamente 8 caracteres');
-        return false;
-    }
-
-
-    return true; 
 }

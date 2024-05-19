@@ -57,29 +57,33 @@ div.inicial{
     font-size: 35px;
 
   }
-  .navegacion a{
+  .navegacion .a2{
     position: relative;
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
+    margin-top: 15px;
   }
   
-  .navegacion a::after {
+  .navegacion .a2::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: 4px;
+    width: 100%;
+    height: 3px;
     background: #fff;
     border-radius: 5px;
     transform: scaleX(0);
     transition: transform .5s;
   }
   
-  .navegacion a:hover::after {
+  .navegacion .a2:hover::after {
     transform: scaleX(1);
   }
+  
   
   .navegacion .btnI{
     width: 150px;
@@ -99,6 +103,27 @@ div.inicial{
   .navegacion .btnI:hover {
     background: #fff;
     color: black;
+  }
+  .navegacion .a1 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+  }
+  
+  .navegacion .a1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #ffffff00;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
   }
  .content {
   grid-row: 2;

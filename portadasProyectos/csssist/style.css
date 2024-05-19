@@ -146,7 +146,25 @@ input[type="submit"]:hover {
     border-width: 2px;
     border-color: #FFFFFF;
 }
-    
+.btn4{
+    float: right;
+    background: #ffffff;
+    width: 300px;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 50px;
+    align-self: center;
+    font-size: 25px;
+    color: #786B94;
+    border-radius: 10px;
+    font-family: Lobster; 
+  }
+  .btn4:hover {
+    background: #786B94;
+    color: #FFFFFF;
+    border-width: 2px;
+    border-color: #FFFFFF;
+  }
  
 
 

@@ -24,21 +24,23 @@
                         <input type="password" name="password" id="password" required><span class="barra"></span>
                         <label for="">Contraseña</label>
                     </div>
+                    <div class="opc">
+                        <input type="radio" name="category" value="user" checked> Docente
+                        <input type="radio" name="category" value="business"> Coordinador
+                    </div>
+                    <br>
                     <h9><a href="../contraseña/contraseña.html">He olvidado mi contraseña</a></h9>
                     <br>
                     
                     <br>
                     <h9>No tienes una cuenta? <a href="../Registro/registro.html">Ir a Registro</a></h9>
                     
-                        <button type="submit" onclick="validarFormulario()">Iniciar</button>
+                        <button type="submit" onclick="return validarFormulario()">Iniciar</button>
                         <a href="../Graficas/docCor.html">ya iniciada la sesion</a>
                    
             
         </div>
-            </form>
-           
-
-  
+            </form>  
 </body>
 </html>
 

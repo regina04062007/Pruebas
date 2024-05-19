@@ -64,7 +64,7 @@ form{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 490px;
+    height: 530px;
     box-shadow: 0 0 6px 0 rgba(225, 225, 225, 0.8);
     background-color: rgb(255, 255, 255);
 }
@@ -155,5 +155,10 @@ button{
 }
 h9{
     margin-left: 39px;
+}
+.opc{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 100px;
 }
 

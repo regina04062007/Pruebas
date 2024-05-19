@@ -41,6 +41,7 @@ div.inicial {
     grid-column: 1;
 }
 
+
 section {
     height: 100vh;
     display: flex;
@@ -142,6 +143,25 @@ input[type="submit"]:hover {
 }
 
 .btn3:hover {
+    background: #4D556C;
+    color: #FFFFFF;
+    border-width: 2px;
+    border-color: #FFFFFF;
+}
+.btn4{
+    float: right;
+    background: #ffffff;
+    width: 300px;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 50px;
+    align-self: center;
+    font-size: 25px;
+    color: #4D556C;
+    border-radius: 10px;
+    font-family: Lobster; 
+}
+.btn4:hover {
     background: #4D556C;
     color: #FFFFFF;
     border-width: 2px;

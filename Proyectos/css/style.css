@@ -56,27 +56,30 @@ div.inicial{
     font-size: 40px;
 
   }
-  .navegacion a{
+  .navegacion .a2{
     position: relative;
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
+    margin-top: 15px;
   }
   
-  .navegacion a::after {
+  .navegacion .a2::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: 4px;
+    width: 100%;
+    height: 3px;
     background: #fff;
     border-radius: 5px;
     transform: scaleX(0);
     transition: transform .5s;
   }
   
-  .navegacion a:hover::after {
+  .navegacion .a2:hover::after {
     transform: scaleX(1);
   }
   
@@ -105,28 +108,29 @@ div.inicial{
   width: 340px;
   background-color: rgb(0, 0, 0);
 }
-.navegacion2 a{
+.navegacion .a1 {
   position: relative;
   font-size: 20px;
   color: white;
   text-decoration: none;
   font-weight: 500;
+  margin-left: 40px;
 }
 
-.navegacion2 a::after {
+.navegacion .a1::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: -6px;
-  background: #fff;
+  width: 100%;
+  height: 3px;
+  background: #ffffff00;
   border-radius: 5px;
   transform: scaleX(0);
   transition: transform .5s;
 }
 
-.navegacion2 a:hover::after {
-  transform: scaleX(1);
-}
+
 
 .navegacion2 .btnI{
   margin-top: 40px;
@@ -172,6 +176,7 @@ form {
 h3 {
   color: #ffffff;
   text-align: center;
+  font-size: 30px;
 }
 
 label {

@@ -82,6 +82,27 @@ div.inicial {
   background: #fff;
   color: black;
 }
+.navegacion .a1{
+  position: relative;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navegacion .a1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #00000000;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
 
 
 .content {

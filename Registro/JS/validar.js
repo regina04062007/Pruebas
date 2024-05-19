@@ -1,7 +1,7 @@
   // Mostrar mensaje al cargar la página
-  window.onload = function() {
+  setTimeout(function() {
     alert(' ATENCIÓN: Solo los docentes y el coordinador de proyecto aula que ingresarán información de sus proyectos necesitan crear una cuenta. Si solo deseas visualizar la información no la necesitas.');
-}
+},1000);
 
 function validarFormulario() {
     const email = document.getElementById('email').value;

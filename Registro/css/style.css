@@ -13,7 +13,7 @@ body{
     background-size: cover;
     font-family: monserrat;
     color: rgb(0, 0, 0);
-    height: 940px;
+    height: 1100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +29,7 @@ body:before {
     background: #000;
     opacity: 0.3;
     z-index: 0;
+    height: 1115px;
   }
 
 
@@ -63,10 +64,10 @@ form{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 450px;
-    height: 850px;
+    height: 970px;
     box-shadow: 0 0 6px 0 rgba(225, 225, 225, 0.8);
     background-color: rgb(255, 255, 255);
-    margin-top: 150px;
+    margin-top: 250px;
 }
 .form{
     width: 100%;
@@ -130,7 +131,16 @@ input:valid~label{
 }
 input:focus~.barra::before{
     width: 100%;
+    color: black;
 
+}
+.vercont i{
+    font-size: 25px;
+    float:right ;
+    margin-top: -35px;
+}
+.vercont i:active {
+    color: rgb(46, 114, 240);
 }
 a{
     margin: -5px 0 20px 5px;

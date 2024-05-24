@@ -17,12 +17,16 @@
                     <h1>Inicio de Sesión<i class="fa fa-user-circle" aria-hidden="true"></i></h1>
 
                     <div class="apartados">
+                        <input type="text" name="username" id="username" required><span class="barra"></span>
+                        <label for="">Nombre de usuario</label> 
+                    </div>
+                    <div class="apartados">
                         <input type="email" name="email" id="email" required><span class="barra"></span>
                         <label for="">Correo electrónico</label> 
                     </div>
                     <div class="apartados">
                         <input type="password" name="password" id="password" required><span class="barra"></span>
-                        <label for="">Contraseña</label>
+                        <label for="">Contraseña</label><div class="vercont"><i class="fa-solid fa-eye" onclick="mostrarContrasena()"></i></div>
                     </div>
                     <div class="opc">
                         <input type="radio" name="category" value="user" checked> Docente

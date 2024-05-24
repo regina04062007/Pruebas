@@ -14,7 +14,7 @@ body{
     font-family: monserrat;
     color: rgb(0, 0, 0);
     height: 100vh;
-    height: 600px;
+    height: 750px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +22,7 @@ body{
 }
 body:before {
     position: absolute;
+    height: 790px;
     top: 0;
     bottom: 0;
     right: 0;
@@ -64,9 +65,10 @@ form{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 530px;
+    height: 620px;
     box-shadow: 0 0 6px 0 rgba(225, 225, 225, 0.8);
     background-color: rgb(255, 255, 255);
+    margin-top: 80px;
 }
 .form{
     width: 100%;
@@ -127,6 +129,14 @@ input:valid~label{
 input:focus~.barra::before{
     width: 100%;
 
+}
+.vercont i{
+    font-size: 25px;
+    float:right ;
+    margin-top: -35px;
+}
+.vercont i:active {
+    color: rgb(46, 114, 240);
 }
 a{
     margin: -5px 0 20px 5px;

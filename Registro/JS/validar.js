@@ -26,6 +26,11 @@ function validarFormulario() {
 
     const regex = /^[a-zA-Z]+$/;
 
+    if (email.trim() === '' || password.trim() === '' || username.trim() === '' || verifyPassword.trim() === '' || name.trim() === '' || lastname.trim() === '' || maidenname.trim() === '') {
+        alert('Debe llenar completamente todos los campos.');
+        return false;
+    }
+
     if (!email.endsWith('ipn.mx')) {
         alert('El correo electrónico debe terminar en ipn.mx');
         return false;

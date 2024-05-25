@@ -389,7 +389,7 @@ footer {
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 800px) {
 
   .navegacion a {
     margin-left: 10px;
@@ -422,5 +422,7 @@ footer {
   footer {
     margin-top: 1500px;
   }
+  
+ 
 
 }

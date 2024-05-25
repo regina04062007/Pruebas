@@ -57,7 +57,15 @@ section {
   height: 100vh;
   color: rgb(0, 0, 0);
 }
-
+i{
+  color: #FFFFFF;
+  font-size: 40px;
+  margin-left: 130px;
+  margin-top: 130px;
+}
+i:hover{
+ color:#6C928D ;
+}
 
 .btn2 {
   background-color: #6C928D;

@@ -5,11 +5,11 @@ setTimeout(function () {
 }, 1200);
 
 function mostrarContrasena() {
-    const x = document.getElementById("password");
-    if (x.type === "password") {
-        x.type = "text";
+    const mostrar = document.getElementById("password");
+    if (mostrar.type === "password") {
+        mostrar.type = "text";
     } else {
-        x.type = "password";
+        mostrar.type = "password";
 
     }
 }

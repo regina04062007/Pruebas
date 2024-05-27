@@ -85,6 +85,7 @@ i:hover {
   font-family: Lobster;
   border-radius: 10px;
   transition: transform 0.2s;
+  word-wrap: break-word;
 }
 
 .btn2:hover {

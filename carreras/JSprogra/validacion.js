@@ -8,7 +8,7 @@ function agregarBoton() {
     let buttons = document.getElementsByClassName("btn2");
 
     if (buttons.length > 0) {
-        buttons[0].parentNode.insertBefore(nuevoBoton, buttons[0]);
+        buttons[0].parentNode.appendChild(nuevoBoton, buttons[0]);
     } else {
         let icon = document.querySelector(".fa-circle-plus");
         icon.parentNode.insertBefore(nuevoBoton, icon);

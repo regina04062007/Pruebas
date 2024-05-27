@@ -113,6 +113,7 @@ input[type="submit"]:hover {
     background-color: #6A0000;
 }
 
+
 .btn2 {
     float: right;
     background-color: #983056;
@@ -121,7 +122,7 @@ input[type="submit"]:hover {
     margin-top: 50px;
     margin-left: 50px;
     align-self: center;
-    font-size: 22px;
+    font-size: 15px;
     color: white;
     font-family: Lobster;
 }
